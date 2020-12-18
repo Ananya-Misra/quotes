@@ -1,0 +1,76 @@
+#root,html,body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    font-family: 'Dancing Script', cursive;
+}
+.app{
+    height:100vh;
+    background: url('./images/pic3.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+.card{
+    background-color:rgba(255,255,255,0.2);
+    width:45%;
+    height:33%;
+    display:grid;
+    place-items: center;
+    grid-template-columns: auto;
+    border-radius: 1em;
+    box-shadow:2px 3px 12px #b26b32;
+    padding:1em;
+}
+button{
+    position: relative;
+    outline:none;
+    cursor:pointer;
+    text-decoration: none;
+    height:50px;
+    width:190px;
+    border-radius: 2em;
+    
+    font-style: bold;
+    font-size: 20px;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-weight: 2000;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Fjalla One', sans-serif;
+    border:#b26b32 solid 1px;
+    background:#3d696f;
+    color:white
+  
+}
+button:hover{
+    /* color:#b26b32; */
+   
+    
+    background:#b26b32;
+    border: #3d696f solid 1px;
+}
+@media (max-width:1000px)
+{.card{
+    background-color:rgba(255,255,255,0.2);
+    width:48%;
+    height:40%;}
+
+}
+@media (max-width:750px)
+{.card{
+    background-color:rgba(255,255,255,0.2);
+    width:80%;
+    height:40%;}
+
+}
+@media (max-width:450px)
+{.card{
+    background-color:rgba(255,255,255,0.2);
+    width:80%;
+    height:50%;}
+
+}
