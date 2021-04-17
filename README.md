@@ -1,4 +1,3 @@
-React application that fetches random quotes with the click of a button
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
